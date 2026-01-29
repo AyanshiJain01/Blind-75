@@ -12,12 +12,10 @@ public:
 
         vector<vector<string>> res;
 
-        for(auto& l : map)
+        for(auto l :map)
         {
             res.push_back(l.second);
         }
-
         return res;
-
     }
 };
