@@ -29,7 +29,7 @@ public:
         }
 
         ListNode* temp = second -> next;
-        second -> next = second -> next -> next;
+        second -> next = second->next->next;
         delete temp;
 
         return dummy -> next;
